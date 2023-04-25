@@ -1,0 +1,40 @@
+main {
+    background-color: rgba(rgb(140, 0, 255), rgb(0, 128, 128), blue, 0.8);
+}
+
+.header {
+    background-color: yellow;
+} 
+h3 {
+    color:green;
+}
+
+.articule{
+    background-color: red;
+    border-radius: 1rem;
+    
+    border-width: 1rem;
+    border-color: blue;
+    padding-top: 1rem;
+}
+.MasLeido .izq{
+    background-color: purple;
+    border-color: green;
+    border-width: 2rem;
+    border-radius: 1rem;
+}
+
+
+
+   
+.MasLeido .izq h3{
+    font-size: large;
+    font-weight: 1rem;
+}
+
+#logo{
+    height: 70px;
+width: 100px;
+background-color: black;
+border-radius: 2rem;
+}

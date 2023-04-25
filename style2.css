@@ -1,0 +1,21 @@
+.main{
+    background-color: rgba(12, 70, 228,0.9);
+    
+}
+
+.bloque{
+    position: relative;
+    margin-left: 30%;
+    margin-top: 10%;
+    border-radius: 1rem;
+    border-color: blueviolet;
+    border-width: 2rem;
+}
+
+.extra{
+    margin-top:20rem;
+}
+
+input[type="mes"]{
+    background-color: red;
+}
