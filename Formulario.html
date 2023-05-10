@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style2.css">
+  </head>
+
+  <body class="main">
+    <section class="bloque">
+        <div>
+            <h1>Registrate</h1>
+            <h4>Es rapido y facil</h4>
+        </div >
+        <div> <!-- Dividir en 2-->
+            <div> <!--Izquierda-->
+                <label for="nombre"></label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre" required />
+            </div>
+            <div>
+                <label for="apellido"></label>
+                <input type="text" name="apellido" id="apellido" placeholder="Apellidos" required />
+            </div>
+        </div>
+        <div>
+            <label for="email-numero"></label>
+            <input type="text" name="email-numero" id="email-numero" placeholder="Numero de movil o Correo electronico" required />
+        </div>
+        <div>
+            <label for="password"></label>
+            <input type="password" name="password" id="password" placeholder="Contraseña nueva" required />
+        </div>
+        <div>
+            <legend>Fecha de nacimiento</legend>
+            <div>
+                <label for="dia"></label>
+                <input type="number" min="1" max="31" id="dia" placeholder="Dia" required />
+            </div>
+            <div>
+                <label for="mes"></label>
+                <select name="mes" id="mes" min="1" max="12"  required>
+                <option value="0">Mes</option> 
+                <option value="1">Enero</option>
+                <option value="2">Febrero</option>
+                <option value="3">Marzo</option>
+                <option value="4">Abril</option>
+                <option value="5">Mayo</option>
+                <option value="6">Junio</option>
+                <option value="7">Julio</option>
+                <option value="8">Agosto</option>
+                <option value="9">Septiembre</option>
+                <option value="10">Octubre</option>
+                <option value="11">Noviembre</option>
+                <option value="12">Diciembre</option>
+                </select>
+            </div>
+            <div>
+                <label for="anio"></label>
+                <input type="number" min="1930" max="2022" name="anio" id="anio" placeholder="Año" required />
+            </div>
+        </div>
+
+        <div>
+            <legend>Genero</legend>
+            
+            <input type="radio" name="estadoCivil" id="mujer" value="Mujer" /> <!-- Asi aparece primero el radbtn-->
+            <label for="mujer">Mujer</label>
+            
+            <input type="radio" name="estadoCivil" id="hombre" value="Hombre" />
+            <label for="hombre">Hombre</label>
+            
+            <input type="radio" name="estadoCivil" id="personalziado" value="Personalziado" />
+            <label for="personalziado">Personalziado</label>
+        </div>
+
+        <div>
+            <p>
+                Es posible que usuarios de nuestro servicio hayan subido tu información 
+                de contacto a Facebook. <a href="https://www.facebook.com/help/637205020878504" >Más información.</a>
+            </p>
+            
+            <p>
+                Al hacer clic en Registrarte, aceptas las 
+                <a href="https://www.facebook.com/legal/terms/update">Condiciones</a>, 
+                la 
+                <a href="https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0">Política de privacidad</a> 
+                y la
+                <a href="https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0">Política de cookies</a>. 
+                Es posible que te enviemos notificaciones por SMS, 
+                que podrás desactivar cuando quieras.
+            </p>
+        </div>
+
+        <button type="submit">Registrarse</button>
+
+    
+    </section>
+
+
+    <section class="extra">
+        <h3> El objetivo es copiar el formulario de registro de fb</h3>
+        <img src="https://www.cyberclick.es/hs-fs/hubfs/04.%20BLOG/1-1.jpg?width=800&name=1-1.jpg">
+    </section>
+  </body>
+
+</html>
